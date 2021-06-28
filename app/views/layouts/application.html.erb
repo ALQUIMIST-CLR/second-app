@@ -5,13 +5,12 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  
-  <body class="homepage is-preload">
-		<div id="page-wrapper">
+  <body class="homepage">
+		<div>
 		<!-- Header -->
 		  <div id="header">		
 			<!-- Nav -->
@@ -44,7 +43,6 @@
 			<div class="container">
           <div class="row">
           </div>
-          <hr/>         
 					<!-- Copyright -->
 					<div class="copyright">
 						<ul class="menu">
